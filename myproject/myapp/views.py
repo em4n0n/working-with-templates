@@ -7,4 +7,7 @@ def home(request):
     
 def menu(request):
     render(request, "menu.html")
-    
+
+def about(request):
+    render(request, "about.html")
+      
