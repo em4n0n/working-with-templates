@@ -11,3 +11,5 @@ def menu(request):
 def about(request):
     render(request, "about.html")
       
+def book(request):
+    render(request, "book.html")
